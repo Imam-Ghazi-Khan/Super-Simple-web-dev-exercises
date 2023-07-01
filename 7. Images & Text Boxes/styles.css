@@ -1,0 +1,88 @@
+button{
+    cursor: pointer;
+}
+
+.spider1{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.spider2{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.spider3{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.search{
+    border-width: 1px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+}
+
+.google{
+    font-size: 12px;
+    width: 200px;
+    height: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-style: solid;
+    border: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+/*7F*/
+p{
+    margin:10px 0;
+    color: rgb(82, 76, 76);
+    font-size: 13px;
+}
+
+.linkedin{
+    width: 295px;
+}
+
+.agree-join{
+    border: none;
+    padding: 10px 112px;
+    border-radius: 112px;
+    background-color: rgb(48, 101, 247);
+    color: white;
+}
+
+
+/*7G*/
+#spider4{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.twitter-input{
+    border: none;
+    margin-left: 5px;
+}
+
+.twitter-input:focus{
+    border: none;
+    margin-left: 5px;
+    outline: none;
+}
+
+.tweet-btn{
+    border: none;
+    padding: 5px 12px;
+    border-radius: 12px;
+    background-color: rgb(82, 127, 251);
+    color: white;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position absolute and fixed</title>
+    <style>
+        body{
+            height: 3000px;
+        }
+        .close-btn{
+            cursor: pointer;
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            background-color: black;
+            color: white;
+            font-size: 10x;
+            border-radius: 20px;
+            padding-left: 11px;
+            padding-right: 11px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        .bottom-right{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 320px;
+            height: 180px;
+            margin: 4px;
+            background-color: grey;
+        }
+        .timestamp{
+            background-color: black;
+            color: white;
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            font-size: 12px;
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bottom-right">
+        <div class="close-btn">X</div>
+        <div class="timestamp">0:29</div>
+    </div>
+</body>
+</html>

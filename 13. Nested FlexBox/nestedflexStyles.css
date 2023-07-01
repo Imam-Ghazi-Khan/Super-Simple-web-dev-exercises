@@ -1,0 +1,119 @@
+
+.allinboxtext{
+    color: grey;
+    margin-left: 15px;
+}
+
+.inboxes{
+    width: fit-content;
+    height: fit-content;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+    padding: 10px;
+}
+
+.inbox{
+    display: flex;
+    padding: 10px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.mail{
+    margin-left: 5px;
+}
+
+.title-time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.time,.greytext{
+    margin: 0;
+    color: grey;
+}
+
+.subtitle{
+    font-weight: bold;
+}
+
+.message{
+    color: grey;
+}
+
+
+/*----------------13f----------------*/
+
+
+.tweetbox{
+    width: fit-content;
+    height: fit-content;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+    padding: 10px;
+    display: flex;
+}
+
+.textstuff{
+    margin-left: 20px;
+}
+
+.user{
+    margin: 0;
+    font-weight: bold;
+    display: flex;
+}
+.username{
+    margin-left: 3px;
+    color: grey;
+    font-weight: lighter;
+}
+.tweet{
+    width: 350px;
+    line-height: 20px;
+    margin-top: 2px;
+}
+
+.youtube{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(200, 200, 200);
+    width: 320px;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.column1{
+    width: 200px;
+    background-color: rgb(200, 200, 200);
+    margin-right: 10px;
+}
+
+.column2{
+    margin-top: 10px;
+    line-height: 0px;
+}
+
+.margintop10{
+    margin-top: 10px;
+}
+
+.link-title{
+    line-height: 20px;
+}
+

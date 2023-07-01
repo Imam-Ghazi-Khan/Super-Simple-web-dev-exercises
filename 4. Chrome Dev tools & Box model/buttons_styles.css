@@ -1,0 +1,116 @@
+/*------------------------------UBER----------------------*/
+#uber{
+    transition: opacity 0.15s;
+}
+#uber:hover{
+    opacity: 0.8;
+}
+#uber:active{
+    
+}
+
+/*---------------------Amazon-----------------------------*/
+#amazon{
+    background-color: rgb(251, 212, 20);
+    transition: background-color 0.15s,opacity 0.15s;
+}
+
+#amazon:hover{
+    background-color: rgb(255, 200, 0);
+}
+
+#amazon:active{
+    opacity: 0.8;
+}
+
+
+/*---------------------Github-----------------------------*/
+
+#github{
+    transition: box-shadow 0.15s,opacity 0.15s;
+}
+
+#github:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+#github:active{
+    opacity: 0.8;
+}
+
+/*---------------------Bootstrap-----------------------------*/
+
+
+#bootstrap{
+        background-color: rgb(121, 82, 179);
+        color: white;
+    transition: background-color 0.15s,
+                color 0.15,
+                opacity 0.15s;
+                
+}
+
+#bootstrap:hover{
+    background-color: rgb(127, 60, 227);
+    color: white;
+}
+
+#bootstrap:active{
+    opacity: 0.8;
+}
+
+
+#bootstrap_download{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    transition: background-color 0.15s,
+                color 0.15,opacity 0.15s;
+                
+}
+
+#bootstrap_download:hover{
+    background-color: grey;
+    color: white;
+}
+
+#bootstrap_download:active{
+    opacity: 0.8;
+}
+
+
+/*---------------------LinkedIn-----------------------------*/
+#linkedin{
+    background-color: rgb(10, 102, 197);
+    color: white;
+    transition: background-color 0.15s, opacity 0.15s, color 0.15s;
+}
+
+#linkedin:hover{
+    background-color: rgb(8, 68, 128);
+}
+
+#linkedin:active{
+    opacity: 0.8;
+}
+
+
+#linkedin_save{
+    background-color: white;
+    border: solid;
+    border-color: rgb(10, 102, 197);
+    border-radius: 20px;
+    border-width: 1.0px;
+    transition: background-color 0.15s,opacity 0.15s;
+}
+
+#linkedin_save:hover{
+    background-color: lightblue;
+    border-width: 1.6px;
+}
+
+#linkedin_save:active{
+    background-color: lightblue;
+    border-width: 1.6px;
+    opacity: 0.8;
+}
+

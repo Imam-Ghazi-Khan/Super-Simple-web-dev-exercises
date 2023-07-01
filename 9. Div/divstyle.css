@@ -1,0 +1,74 @@
+button{
+    cursor: pointer;
+}
+/*--------9A----------*/
+#red{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+/*--------9B----------*/
+#green{
+    border-radius: 25px;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+}
+/*--------9D----------*/
+#ytd{
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+/*--------9E----------*/
+#spider{
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.twitter-input{
+    border: none;
+    margin-left: 5px;
+}
+
+.twitter-input:focus{
+    border: none;
+    margin-left: 5px;
+    outline: none;
+}
+
+.tweet-btn{
+    border: none;
+    padding: 5px 12px;
+    border-radius: 12px;
+    background-color: rgb(82, 127, 251);
+    color: white;
+}
+
+.tweet{
+    display: inline-block;
+    width: 290px;
+    padding-left: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+/*--------9F+9G----------*/
+#add-friend{
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(82, 127, 251);
+    color: white;
+    padding: 5px 12px;
+    
+}
+.card{
+    width: min-content;
+    display: inline-block;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+}

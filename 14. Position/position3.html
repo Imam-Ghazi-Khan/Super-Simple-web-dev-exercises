@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord</title>
+    <style>
+        p{
+            margin-bottom: 10px;
+            margin-left: 2px;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar{
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+        }
+        .icons{
+            background-color: rgb(78, 74, 74);
+            padding: 8px;
+            padding-top:12px;
+            background-color: rgb(33, 33, 33);
+
+        }
+        img{
+            cursor: pointer;
+            height: 40px;
+            width: 40px;
+            display: block;
+            border-radius: 20px;
+            margin-bottom: 10px;
+        }
+        .channels-section{
+            background-color: rgb(55, 55, 55);
+            padding: 10px;
+            width: 150px;
+        }
+        .addchannels{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            margin-top: 10px;
+        }
+        .info{
+            font-size: 15px;
+        }
+        .add{
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(150, 150, 150);
+        }
+        .channels p{
+            color: rgb(150, 150, 150);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="icons">
+            <img style="margin-top: 8px;" src="res/spider.png" alt="">
+            <img src="res/spider.png" alt="">
+            <img src="res/spider.png" alt="">
+        </div>
+        <div class="channels-section">
+            <div class="addchannels">
+                <p class="info">INFO</p>
+                <p class="add">+</p>
+            </div>
+            <div class="channels">
+                <p># new-videos</p>
+                <p># updates</p>
+                <p># faq</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

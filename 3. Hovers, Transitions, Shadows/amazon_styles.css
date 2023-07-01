@@ -1,0 +1,34 @@
+#amazon{
+    background-color: rgb(251, 212, 20);
+    transition: background-color 0.15s,opacity 0.15s;
+}
+
+#amazon:hover{
+    background-color: rgb(255, 200, 0);
+}
+
+#amazon:active{
+    opacity: 0.8;
+}
+
+a{
+    color: rgb(0, 113, 133);
+    transition: color 0.15s;
+}
+
+a:hover{
+    color: orange;
+}
+
+#buy{
+    background-color: rgb(255, 164, 28);
+    transition: background-color 0.15s,opacity 0.15s;
+}
+
+#buy:hover{
+    background-color: rgb(219, 128, 23);
+}
+
+#buy:active{
+    opacity: 0.8;
+}

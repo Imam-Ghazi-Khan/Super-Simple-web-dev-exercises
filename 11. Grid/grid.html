@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="gridstyle.css">
+</head>
+<body>
+
+    <!----------------------11A------------------------------------------>
+
+    <h1>11A</h1>
+    <div 
+        style="
+            display: grid;
+            grid-template-columns: 200px 75px;">
+        <div style="background-color: lightblue;">200px</div>
+        <div style="background-color: pink;">75px</div>
+    </div>
+
+
+    <!----------------------11B------------------------------------------>
+
+
+    <h1>11B</h1>
+    <div 
+        style="
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;">
+        <div style="background-color: lightblue;">col1</div>
+        <div style="background-color: pink;">col2</div>
+        <div style="background-color: lightblue;">col3</div>
+    </div>
+
+    <!----------------------11C------------------------------------------>
+
+    <h1>11C</h1>
+    <div 
+        style="
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;">
+        <div style="background-color: lightblue;">col1</div>
+        <div style="background-color: pink;">col2</div>
+        <div style="background-color: lightblue;">col3</div>
+        <div style="background-color: pink;">col4</div>
+        <div style="background-color: lightblue;">col1</div>
+        <div style="background-color: pink;">col2</div>
+        <div style="background-color: lightblue;">col3</div>
+        <div style="background-color: pink;">col4</div>
+    </div>
+
+    <!----------------------11D------------------------------------------>
+    <h1>11D</h1>
+    <div id="main-horizontal">
+
+        <div class="card">
+            <img style="width:150px;height: 100px;" src="res/spider.png" alt="">
+            <p style="font-weight: bold;margin-left: 5px;">Peter</p>
+            <div class="mutual-hor">
+                <img class="mutual-img" src="res/spider.png" alt="">
+                <p style="color: rgb(57, 55, 55);display: inline-block;vertical-align: middle;margin-left: 2px;">2 mutual friends</p>
+            </div>
+            <button id="add-friend">Add Friend</button>
+        </div>
+
+        <div class="card">
+            <img style="width:150px;height: 100px;" src="res/spider.png" alt="">
+            <p style="font-weight: bold;margin-left: 5px;">Spidey</p>
+            <div class="mutual-hor">
+                <img class="mutual-img" src="res/spider.png" alt="">
+                <p style="color: rgb(57, 55, 55);display: inline-block;vertical-align: middle;margin-left: 2px;">2 mutual friends</p>
+            </div>
+            <button id="add-friend">Add Friend</button>
+        </div>
+
+        <div class="card">
+            <img style="width:150px;height: 100px;" src="res/spider.png" alt="">
+            <p style="font-weight: bold;margin-left: 5px;">Miles</p>
+            <div class="mutual-hor">
+                <img class="mutual-img" src="res/spider.png" alt="">
+                <p style="color: rgb(57, 55, 55);display: inline-block;vertical-align: middle;margin-left: 2px;">2 mutual friends</p>
+            </div>
+            <button id="add-friend">Add Friend</button>
+        </div>
+        
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+button{
+    cursor: pointer;
+    font-size: large;
+}
+
+/*-------------Pagination--------------*/
+#pagination{
+    display: flex;
+    flex-direction: row;
+}
+
+#back #next{
+        padding: 10px;
+}
+
+a{
+    padding: 5px;
+}
+
+#pages{
+    padding: 10px 10px;
+}
+
+/*-------------Stretch---------------*/
+
+#stretch{
+    background-color: green;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    transition: padding 1s;
+}
+
+#stretch:hover{
+    padding: 20px 40px;
+}
+
+
+/*-------------3D Click---------------*/
+
+
+#shadow{
+    background-color: green;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 8px 16px;
+}
+
+#shadow:active{
+    margin: 3px -3px -3px 3px;
+    box-shadow: none;
+}
+
+
+/*-------------Margin and padding together---------------*/
+
+.no{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    transition: padding 0.25s,margin 0.25s;
+}
+
+.no:hover{
+    padding: 10px 30px;
+    margin: 0px 0px;
+}

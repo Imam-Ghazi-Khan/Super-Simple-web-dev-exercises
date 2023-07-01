@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position 14A,14B & 14C</title>
+    <style>
+        /*--------------------------fourteen-A------------------------*/
+        .fourteen-A{
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            z-index: 1;
+        }
+        /*--------------------------fourteen-B------------------------*/
+        .sidebar{
+            background-color: green;
+            width: 100px;
+            position:fixed;
+            right : 0px;
+            bottom: 0px;
+            top: 0px;
+            z-index: 0.5;
+        }
+        /*--------------------------fourteen-C------------------------*/
+        .entirepage{
+            position:fixed;
+            background-color: black;  /*remove this to see the overlay in 14D*/
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            z-index: -1;
+        }
+        /*--------------------------fourteen-D------------------------*/
+        .overlay{
+            background-color: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal{
+            background-color: white;   
+            padding: 15px 15px;    
+            border-radius: 10px; 
+            width: 300px;  
+        }
+        .modal-title{
+            margin: 0px;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+        .modal-subtitle{
+            margin: 0px;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    
+    <p class="fourteen-A">bottom-right</p>
+
+    <div class="sidebar">
+        <p>right sidebar</p>
+    </div>
+
+    <div class="entirepage"></div>
+
+    <div class="overlay">
+        <div class="modal">
+            <p class="modal-title">Modal Title</p>
+            <p class="modal-subtitle">This is a modal</p>
+            <button>Close</button>
+        </div>
+    </div>
+
+</body>
+</html>
